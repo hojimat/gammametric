@@ -1,0 +1,24 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:			/:categories/:title:output_ext
+
+# Setup
+title:               GammaMetric
+tagline:             'Statistical and Economic Consultancy'
+description:         ''
+url:                 'http://gammametric.com'
+baseurl:             ''
+plugins: [jekyll-seo-tag, jekyll-sitemap, jekyll-redirect-from]
+
+# About/contact
+author:
+  name:              GammaMetric Solutions
+  url:               http://gammametric.com
+  email:             rsk@gammametric.com
+
+# Social media
+twitter_username:	gammametric
+
+# Custom vars
+version:             1.0.0

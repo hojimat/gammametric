@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: gammametric.com/sitemap.xml
