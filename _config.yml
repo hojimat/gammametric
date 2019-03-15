@@ -6,8 +6,8 @@ permalink:			/:categories/:title:output_ext
 # Setup
 title:               GammaMetric
 tagline:             'Statistical and Economic Consultancy'
-description:         ''
-url:                 'http://gammametric.com'
+description:         'GammaMetric is an economic consulting firm that operates at the intersection of statistics, computing and finance.'
+url:                 'https://gammametric.com'
 baseurl:             ''
 plugins: [jekyll-seo-tag, jekyll-sitemap, jekyll-redirect-from]
 

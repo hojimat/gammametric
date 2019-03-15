@@ -9,16 +9,16 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="600"
-   height="600"
-   viewBox="0 0 158.75001 158.75"
+   width="14.663847mm"
+   height="14.663846mm"
+   viewBox="0 0 14.663847 14.663846"
    version="1.1"
    id="svg8"
-   inkscape:export-filename="/home/ravshan/Documents/project/gammametric/assets/favicon.ico.png"
-   inkscape:export-xdpi="9.6000004"
-   inkscape:export-ydpi="9.6000004"
    inkscape:version="0.92.2 2405546, 2018-03-11"
-   sodipodi:docname="favicon.svg">
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="/home/ravshan/Documents/project/gammametric/assets/avatar.png"
+   inkscape:export-xdpi="1039.2908"
+   inkscape:export-ydpi="1039.2908">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -28,9 +28,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.38531838"
-     inkscape:cx="96.267034"
-     inkscape:cy="379.44944"
+     inkscape:zoom="12.937357"
+     inkscape:cx="13.481375"
+     inkscape:cy="34.823642"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -42,8 +42,7 @@
      inkscape:window-height="718"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="1"
-     units="px" />
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -52,7 +51,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -60,17 +59,30 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-60.478337,-10.8809)">
+     transform="translate(-39.513577,-124.80385)">
+    <rect
+       style="opacity:1;fill:#343a40;fill-opacity:1;stroke:none;stroke-width:0.33615375;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       id="rect831"
+       width="14.663847"
+       height="14.663846"
+       x="39.513577"
+       y="124.80385" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2"
+     transform="translate(-39.513577,-124.80385)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35.38217163px;line-height:1.25;font-family:C059;-inkscape-font-specification:C059;letter-spacing:0px;word-spacing:0px;fill:#013587;fill-opacity:1;stroke:none;stroke-width:0.55284643"
-       x="76.686005"
-       y="123.99983"
-       id="text849-4"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.93333244px;line-height:1.25;font-family:serif;-inkscape-font-specification:serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="41.896965"
+       y="134.76059"
+       id="text817"><tspan
          sodipodi:role="line"
-         id="tspan847-0"
-         x="76.686005"
-         y="123.99983"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:216.15155029px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';fill:#013587;fill-opacity:1;stroke-width:0.55284643">γ</tspan></text>
+         id="tspan815"
+         x="41.896965"
+         y="134.76059"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332">γ</tspan></text>
   </g>
 </svg>
