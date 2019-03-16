@@ -45,7 +45,7 @@ In the blog of this website I give a generic picture of works done and publish o
 </div>
 
 <div class="col-md-12 py-4">
-	<a href="/works" class="btn btn-light btn-block">Other works<br/><i class="fas fa-angle-down fa-2x"></i></a>
+	<a href="/works" class="btn btn-light btn-block">Other works<br/><i class="fa fa-angle-down fa-2x"></i></a>
 </div>
 
 <a name="hire"></a><br>

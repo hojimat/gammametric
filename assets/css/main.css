@@ -23,3 +23,7 @@ blockquote {
 img.logo {
 	height: 1.5em;
 }
+
+a:focus {
+    outline: 0;
+	}
