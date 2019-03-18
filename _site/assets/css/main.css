@@ -15,6 +15,10 @@ a, a:hover {
 	color: #235f8a;
 }
 
+a:focus {
+    outline: 0;
+	}
+
 blockquote {
 	font-size: 2em;
 	font-family: 'PT Sans', sans-serif;
@@ -24,6 +28,3 @@ img.logo {
 	height: 1.5em;
 }
 
-a:focus {
-    outline: 0;
-	}
