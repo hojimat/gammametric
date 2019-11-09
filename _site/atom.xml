@@ -4,7 +4,7 @@
  <title>GammaMetric</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-06-04T14:28:39+06:00</updated>
+ <updated>2019-11-09T23:06:42+01:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>GammaMetric Solutions</name>
@@ -15,7 +15,7 @@
  <entry>
    <title>My take on the famous medical appointment no-show problem</title>
    <link href="http://localhost:4000/articles/brazil-noshow.html"/>
-   <updated>2018-12-10T00:00:00+06:00</updated>
+   <updated>2018-12-10T00:00:00+01:00</updated>
    <id>http://localhost:4000/articles/brazil-noshow</id>
    <content type="html">&lt;h3 id=&quot;contents&quot;&gt;Contents&lt;/h3&gt;
 &lt;ul class=&quot;index&quot;&gt;
@@ -267,7 +267,7 @@
  <entry>
    <title>Using matching with quotas to solve Hajj visa problem</title>
    <link href="http://localhost:4000/articles/saudi-visa.html"/>
-   <updated>2018-11-28T00:00:00+06:00</updated>
+   <updated>2018-11-28T00:00:00+01:00</updated>
    <id>http://localhost:4000/articles/saudi-visa</id>
    <content type="html">&lt;h3 id=&quot;contents&quot;&gt;Contents&lt;/h3&gt;
 &lt;ul class=&quot;index&quot;&gt;
@@ -328,7 +328,7 @@ mechanism from Kojima’s paper:&lt;/p&gt;
  <entry>
    <title>Valuation Calculator for Subscription-Based Businesses</title>
    <link href="http://localhost:4000/articles/valuation-calc.html"/>
-   <updated>2018-11-27T00:00:00+06:00</updated>
+   <updated>2018-11-27T00:00:00+01:00</updated>
    <id>http://localhost:4000/articles/valuation-calc</id>
    <content type="html">&lt;p&gt;Last summer I worked on a project that used Daniel McCarthy, Peter Fader and Bruce Hardie’s valuation model, described in their paper “Valuing Subscription-Based Businesses Using Publicly Disclosed Customer Data” available at &lt;a href=&quot;https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2701093#maincontent&quot;&gt;SSRN&lt;/a&gt;.&lt;/p&gt;
 
@@ -354,7 +354,7 @@ mechanism from Kojima’s paper:&lt;/p&gt;
  <entry>
    <title>Simulating Likert scale data in R</title>
    <link href="http://localhost:4000/articles/likert.html"/>
-   <updated>2018-10-31T00:00:00+06:00</updated>
+   <updated>2018-10-31T00:00:00+01:00</updated>
    <id>http://localhost:4000/articles/likert</id>
    <content type="html">&lt;p&gt;In my last project I had to find theoretical limits for a &lt;em&gt;psychometric&lt;/em&gt; index involving &lt;em&gt;Likert scale data&lt;/em&gt; (aka &lt;em&gt;categorical data&lt;/em&gt;). After successfully finding it, I decided to test the results in a simple &lt;em&gt;Monte-Carlo simulation&lt;/em&gt;.&lt;/p&gt;
 
@@ -398,7 +398,7 @@ mechanism from Kojima’s paper:&lt;/p&gt;
  <entry>
    <title>In quest of the ultimate investment advice</title>
    <link href="http://localhost:4000/articles/munkfin.html"/>
-   <updated>2018-10-21T00:00:00+06:00</updated>
+   <updated>2018-10-21T00:00:00+02:00</updated>
    <id>http://localhost:4000/articles/munkfin</id>
    <content type="html">&lt;h3 id=&quot;contents&quot;&gt;Contents&lt;/h3&gt;
 &lt;ul class=&quot;index&quot;&gt;
@@ -606,7 +606,7 @@ mechanism from Kojima’s paper:&lt;/p&gt;
  <entry>
    <title>Object-oriented Game of Life in Python</title>
    <link href="http://localhost:4000/articles/gameoflife.html"/>
-   <updated>2018-08-09T00:00:00+06:00</updated>
+   <updated>2018-08-09T00:00:00+02:00</updated>
    <id>http://localhost:4000/articles/gameoflife</id>
    <content type="html">&lt;h3 id=&quot;intro&quot;&gt;Intro&lt;/h3&gt;
 &lt;p&gt;I have been planning to build a superior GUI alternative to &lt;em&gt;NetLogo&lt;/em&gt; for a long time. When I finally started working on a project, I decided to test the basic implementations in Python. Sure enough, the first app was &lt;em&gt;Conway’s Game of Life&lt;/em&gt; - a great special case of &lt;em&gt;cellular automata&lt;/em&gt;.&lt;/p&gt;
@@ -737,7 +737,7 @@ mechanism from Kojima’s paper:&lt;/p&gt;
  <entry>
    <title>Bitcoin forgot its roots. Should we tax it?</title>
    <link href="http://localhost:4000/articles/tax-bitcoins.html"/>
-   <updated>2018-08-03T00:00:00+06:00</updated>
+   <updated>2018-08-03T00:00:00+02:00</updated>
    <id>http://localhost:4000/articles/tax-bitcoins</id>
    <content type="html">&lt;p&gt;Bitcoin was invented and became popular first within a crypto community whose members were predominantly influenced by the so-called “hacker culture”.&lt;/p&gt;
 
@@ -776,7 +776,7 @@ mechanism from Kojima’s paper:&lt;/p&gt;
  <entry>
    <title>Utility tokens&#58; discussion, economic model and simulation in R</title>
    <link href="http://localhost:4000/articles/token-economics.html"/>
-   <updated>2018-08-01T00:00:00+06:00</updated>
+   <updated>2018-08-01T00:00:00+02:00</updated>
    <id>http://localhost:4000/articles/token-economics</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;https://hackernoon.com/utility-tokens-discussion-economic-model-and-simulation-in-r-798c0ff3d26c&quot;&gt;&lt;em&gt;This post has been originally published in HackerNoon. Click here to read the original.&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -1139,7 +1139,7 @@ mechanism from Kojima’s paper:&lt;/p&gt;
  <entry>
    <title>Factor Analysis and Uniform distributions</title>
    <link href="http://localhost:4000/articles/uniform-distribution.html"/>
-   <updated>2018-03-27T00:00:00+06:00</updated>
+   <updated>2018-03-27T00:00:00+02:00</updated>
    <id>http://localhost:4000/articles/uniform-distribution</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;#unifrand&quot;&gt;&lt;strong&gt;To learn about product decomposition of uniform distribution click here or keep on reading&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -1215,7 +1215,7 @@ mechanism from Kojima’s paper:&lt;/p&gt;
  <entry>
    <title>Nocomment Blogs_md</title>
    <link href="http://localhost:4000/doc/blog/nocomment-blogs_md.html"/>
-   <updated>2018-03-22T00:00:00+06:00</updated>
+   <updated>2018-03-22T00:00:00+01:00</updated>
    <id>http://localhost:4000/doc/blog/nocomment-blogs_md</id>
    <content type="html">&lt;!DOCTYPE html&gt;
 
@@ -1493,7 +1493,7 @@ without you asking to &lt;em&gt;“please share your thoughts”&lt;/em&gt;&lt;/
  <entry>
    <title>Telegramblog_md</title>
    <link href="http://localhost:4000/doc/blogru/telegramblog_md.html"/>
-   <updated>2018-02-20T00:00:00+06:00</updated>
+   <updated>2018-02-20T00:00:00+01:00</updated>
    <id>http://localhost:4000/doc/blogru/telegramblog_md</id>
    <content type="html">&lt;!DOCTYPE html&gt;
 
@@ -1712,7 +1712,7 @@ without you asking to &lt;em&gt;“please share your thoughts”&lt;/em&gt;&lt;/
  <entry>
    <title>Pessimism In Bba_md</title>
    <link href="http://localhost:4000/doc/blog/pessimism-in-bba_md.html"/>
-   <updated>2018-02-07T00:00:00+06:00</updated>
+   <updated>2018-02-07T00:00:00+01:00</updated>
    <id>http://localhost:4000/doc/blog/pessimism-in-bba_md</id>
    <content type="html">&lt;!DOCTYPE html&gt;
 
@@ -2000,7 +2000,7 @@ a dose of pessimism/conflict into the courses to keep students engaged.&lt;/p&gt
  <entry>
    <title>Xtcointreg_md</title>
    <link href="http://localhost:4000/doc/blog/xtcointreg_md.html"/>
-   <updated>2018-01-01T00:00:00+06:00</updated>
+   <updated>2018-01-01T00:00:00+01:00</updated>
    <id>http://localhost:4000/doc/blog/xtcointreg_md</id>
    <content type="html">&lt;!DOCTYPE html&gt;
 
@@ -2257,7 +2257,7 @@ install xtcointreg&lt;/code&gt; to download it.&lt;/p&gt;
  <entry>
    <title>Introducing Panel FMOLS/DOLS command for Stata</title>
    <link href="http://localhost:4000/articles/xtcointreg.html"/>
-   <updated>2018-01-01T00:00:00+06:00</updated>
+   <updated>2018-01-01T00:00:00+01:00</updated>
    <id>http://localhost:4000/articles/xtcointreg</id>
    <content type="html">&lt;p&gt;Last week I was hired to perform a thorough analysis of a panel dataset for export dynamics of different sectors in a country. I had never done panel econometrics before or even read it in a textbook. But since I am good at cross-section and time-series, I believed I could handle the task. And I wasn’t wrong.&lt;/p&gt;
 
@@ -2285,7 +2285,7 @@ install xtcointreg&lt;/code&gt; to download it.&lt;/p&gt;
  <entry>
    <title>Irf Ann_md</title>
    <link href="http://localhost:4000/doc/blog/irf-ann_md.html"/>
-   <updated>2017-12-12T00:00:00+06:00</updated>
+   <updated>2017-12-12T00:00:00+01:00</updated>
    <id>http://localhost:4000/doc/blog/irf-ann_md</id>
    <content type="html">&lt;!DOCTYPE html&gt;
 
@@ -2521,7 +2521,7 @@ workaround is an important contribution to the economic analysis.&lt;/p&gt;
  <entry>
    <title>Using impulse response functions to interpret partial effects in neural networks</title>
    <link href="http://localhost:4000/articles/irf-ann.html"/>
-   <updated>2017-01-12T00:00:00+06:00</updated>
+   <updated>2017-01-12T00:00:00+01:00</updated>
    <id>http://localhost:4000/articles/irf-ann</id>
    <content type="html">&lt;p&gt;This week I’ve been working on a research paper based on a very simple idea which, hopefully, can solve an important problem in applying machine learning techniques in economics — the interpretability. So, if you recall, the neural networks is the generalization of a logit model where sigmoid of a linear combination of inputs is used iteratively.&lt;/p&gt;
 
@@ -2540,7 +2540,7 @@ workaround is an important contribution to the economic analysis.&lt;/p&gt;
  <entry>
    <title>Transform Excel into a translation tool using this VBA macro</title>
    <link href="http://localhost:4000/articles/vba-translate.html"/>
-   <updated>2014-08-20T00:00:00+06:00</updated>
+   <updated>2014-08-20T00:00:00+02:00</updated>
    <id>http://localhost:4000/articles/vba-translate</id>
    <content type="html">&lt;h2 id=&quot;a-brief-preface&quot;&gt;A brief preface&lt;/h2&gt;
 &lt;p&gt;This summer I did an internship at &lt;a href=&quot;https://en.wikipedia.org/wiki/BSH_Hausger%C3%A4te&quot;&gt;&lt;em&gt;BSH Hausgeräte&lt;/em&gt;&lt;/a&gt; (aka &lt;em&gt;Bosch and Siemens Home Appliances&lt;/em&gt;), where I built a lot of amazing tools on &lt;em&gt;Excel&lt;/em&gt; using &lt;em&gt;VBA (Visual Basic for Applications)&lt;/em&gt;. I helped them automate monthly reports, which now take just a few seconds to complete. I would’ve contribute a lot more to the company if not for the corporate restrictions, according to which I wasn’t authorized to access code from other departments.&lt;/p&gt;

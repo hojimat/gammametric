@@ -207,7 +207,8 @@ h6 {
 }
 
 #intro .intro-content .btn-get-started,
-#intro .intro-content .btn-projects {
+#intro .intro-content .btn-projects,
+#intro .intro-content .btn-academy {
   font-family: "Raleway", sans-serif;
   font-size: 15px;
   font-weight: bold;
@@ -238,6 +239,16 @@ h6 {
 #intro .intro-content .btn-projects:hover {
   background: none;
   color: #50d8af;
+}
+
+#intro .intro-content .btn-academy {
+  background: #f00;
+  border: 2px solid #f00;
+}
+
+#intro .intro-content .btn-academy:hover {
+  background: none;
+  color: #f00;
 }
 
 #intro #intro-carousel {
@@ -336,7 +347,7 @@ h6 {
   margin: 0;
 }
 
-/* Nav Meu Styling */
+/* Nav Menu Styling */
 
 .nav-menu a {
   padding: 10px 8px;
@@ -354,6 +365,10 @@ h6 {
   color: #50d8af;
 }
 
+.nav-menu li#academy > a,
+.nav-menu li#academy:hover > a {
+  color: #f00;
+}
 .nav-menu > li {
   margin-left: 10px;
 }
