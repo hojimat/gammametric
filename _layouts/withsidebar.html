@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<div class="row col-md-12">
+	<div class="container content col-md-7 offset-1 py-5">
+      {{ content }}
+ 	</div>
+
+	<div class="col-md-4 blog-sidebar py-5">
+		<div class="categories pb-5">
+			<h3>Read categories</h3>
+				<a class="badge badge-light p-2" href="/economics">Economics</a>
+				<a class="badge badge-light p-2" href="/statistics">Statistics</a>
+				<a class="badge badge-light p-2" href="/finance">Finance</a>
+				<a class="badge badge-light p-2" href="/management">Management</a>
+				<a class="badge badge-light p-2" href="/complexity">Complexity</a>
+				<a class="badge badge-light p-2" href="/crypto">Crypto</a>
+		</div>
+		<div class="recent">
+			<h3>Recent articles</h3>
+				<ul class="list-unstyled">
+					{% for post in site.posts limit:5%}
+						{% if post.lang contains 'english' %}
+   							<li><a class="text-dark small" href="{{ site.baseurl }}{{ post.url }}">{{ post.title | truncate:60}}</a></li>
+						{% endif %}
+					{% endfor %}
+				</ul>
+		</div>
+	</div>
+</div>

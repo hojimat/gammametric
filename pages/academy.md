@@ -1,6 +1,6 @@
 ---
+layout: default
 permalink: /academy
-layout: landing
 ---
 
 <section id="intro">
