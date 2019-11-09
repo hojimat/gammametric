@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /academy
+title: "&#120574;demy Learning Resources"
 ---
 
 <section id="intro">
@@ -16,7 +17,6 @@ permalink: /academy
     <div class="item" style="background-image: url('/assets/img/academy-carousel/2.jpg');"></div>
     <div class="item" style="background-image: url('/assets/img/academy-carousel/3.jpg');"></div>
     <div class="item" style="background-image: url('/assets/img/academy-carousel/4.jpg');"></div>
-    <div class="item" style="background-image: url('/assets/img/academy-carousel/5.jpg');"></div>
   </div>
 </section>
 

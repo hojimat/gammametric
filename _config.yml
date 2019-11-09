@@ -4,7 +4,7 @@
 permalink:			/:categories/:title:output_ext
 
 # Setup
-title:               GammaMetric
+title:               "GammaMetric"
 tagline:             'Statistical and Economic Consultancy'
 description:         'GammaMetric is an economic consulting firm that operates at the intersection of statistics, computing and finance.'
 url:                 'https://gammametric.com'
@@ -15,7 +15,7 @@ plugins: [jekyll-seo-tag, jekyll-sitemap, jekyll-redirect-from]
 author:
   name:              GammaMetric Solutions
   url:               http://gammametric.com
-  email:             rsk@gammametric.com
+  email:             info@gammametric.com
 
 # Social media
 twitter_username:	gammametric
