@@ -208,7 +208,11 @@ h6 {
 
 #intro .intro-content .btn-get-started,
 #intro .intro-content .btn-projects,
-#intro .intro-content .btn-academy {
+#intro .intro-content .btn-academy,
+#intro .intro-content .btn-screencast,
+#intro .intro-content .btn-lecture,
+#intro .intro-content .btn-example,
+#intro .intro-content .btn-code {
   font-family: "Raleway", sans-serif;
   font-size: 15px;
   font-weight: bold;
@@ -250,6 +254,48 @@ h6 {
   background: none;
   color: #f00;
 }
+
+#intro .intro-content .btn-screencast {
+  background: #0C2E8A;
+  border: 2px solid #0C2E8A;
+}
+
+#intro .intro-content .btn-screencast:hover {
+  background: none;
+  color: #0C2E8A;
+}
+
+#intro .intro-content .btn-lecture {
+  background: #236796;
+  border: 2px solid #236796;
+}
+
+#intro .intro-content .btn-lecture:hover {
+  background: none;
+  color: #236796;
+}
+
+#intro .intro-content .btn-example {
+  background: #399FA3;
+  border: 2px solid #399FA3;
+}
+
+#intro .intro-content .btn-example:hover {
+  background: none;
+  color: #399FA3;
+}
+
+#intro .intro-content .btn-code {
+  background: #50D8AF;
+  border: 2px solid #50D8AF;
+}
+
+#intro .intro-content .btn-code:hover {
+  background: none;
+  color: #50D8AF;
+}
+
+
 
 #intro #intro-carousel {
   z-index: 8;
@@ -1038,6 +1084,62 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .form button[type="submit"]:hover {
   background: #2dc899;
 }
+
+/*--------------------------------------------------------------
+# Academy Sections
+--------------------------------------------------------------*/
+
+#screencast,
+#lecture,
+#example,
+#code {
+	padding: 60px 0;
+}
+
+
+/* Materials Section
+--------------------------------*/
+
+#materials {
+  padding: 30px 0 0 0;
+}
+
+#materials .box {
+  box-shadow: 10px 10px 15px rgba(73, 78, 92, 0.1);
+  background: #fff;
+  transition: 0.4s;
+}
+
+#materials .box:hover {
+  box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+}
+
+#materials .box .icon {
+  text-align: center;
+}
+
+
+#materials .box .icon img {
+  color: #444;
+  font-size: 64px;
+  transition: 0.5s;
+  width: 90px;
+  margin: 30px auto;
+}
+
+
+#materials .box .icon h4 {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+
+
+
+
 
 /*--------------------------------------------------------------
 # Footer

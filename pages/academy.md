@@ -8,8 +8,7 @@ title: "&#120574;demy Learning Resources"
   <div class="intro-content">
     <h2>&#120574;<span>demy</span><br>Learning Resources</h2>
     <div>
-      <a href="#about" class="btn-get-started scrollto">Get Started</a>
-      <a href="#portfolio" class="btn-projects scrollto">Our Projects</a>
+      <a href="#materials" class="btn-get-started scrollto">Get Started</a>
     </div>
   </div>
   <div id="intro-carousel" class="owl-carousel" >
@@ -20,3 +19,110 @@ title: "&#120574;demy Learning Resources"
   </div>
 </section>
 
+<!------------------
+	MEDIA
+------------------->
+<section id="materials">
+<div class="container">
+  <div class="section-header">
+    <h2>Materials</h2>
+    <p></p>
+  </div>
+
+  <div class="row">
+
+   <div class="col-lg-3">
+   <div class="box wow fadeInUp">
+   <div class="icon">
+  	 <img class="rounded" src="/assets/img/landing/cbcv.png"/>
+   	 <h4 class="title">Video Materials</h4>
+   </div>
+   </div>
+   </div>
+
+   <div class="col-lg-3">
+   <div class="box wow fadeInUp">
+   <div class="icon">
+  	 <img class="rounded" src="/assets/img/landing/cbcv.png"/>
+   	 <h4 class="title">Lecture Notes</h4>
+   </div>
+   </div>
+   </div>
+
+   <div class="col-lg-3">
+   <div class="box wow fadeInUp" data-wow-delay="0.2s">
+   <div class="icon">
+  	 <img class="rounded" src="/assets/img/landing/cbcv.png"/>
+   	 <h4 class="title">Case Studies</h4>
+   </div>
+   </div>
+   </div>
+
+   <div class="col-lg-3">
+   <div class="box wow fadeInUp" data-wow-delay="0.2s">
+   <div class="icon">
+  	 <img class="rounded" src="/assets/img/landing/cbcv.png"/>
+   	 <h4 class="title">Codes</h4>
+   </div>
+   </div>
+   </div>
+
+  </div>
+
+</div>
+</section>
+
+
+<!------------------
+	SCREENCASTS
+------------------->
+
+<section id="screencast" class="wow fadeInUp">
+	<div class="container">
+		<div class="section-header">
+			<h2>Screencasts</h2>
+			<p>We offer our existing products under various licenses, and also build new ones exclusively for interested clients. We offer various support services for our tools including maintenance, troubleshooting, customizing and training. We also provide economic and statistical consulting services.</p>
+		</div>
+	</div>
+</section>
+
+
+<!------------------
+	LECTURES
+------------------->
+
+<section id="lecture" class="wow fadeInUp">
+	<div class="container">
+		<div class="section-header">
+			<h2>Lectures</h2>
+			<p>We offer our existing products under various licenses, and also build new ones exclusively for interested clients. We offer various support services for our tools including maintenance, troubleshooting, customizing and training. We also provide economic and statistical consulting services.</p>
+		</div>
+	</div>
+</section>
+
+
+<!------------------
+	EXAMPLES
+------------------->
+
+<section id="example" class="wow fadeInUp">
+	<div class="container">
+		<div class="section-header">
+			<h2>Examples</h2>
+			<p>We offer our existing products under various licenses, and also build new ones exclusively for interested clients. We offer various support services for our tools including maintenance, troubleshooting, customizing and training. We also provide economic and statistical consulting services.</p>
+		</div>
+	</div>
+</section>
+
+<!------------------
+	CODES	
+------------------->
+
+<section id="code" class="wow fadeInUp">
+	<div class="container">
+		<div class="section-header">
+			<h2>Codes</h2>
+			<p>We offer our existing products under various licenses, and also build new ones exclusively for interested clients. We offer various support services for our tools including maintenance, troubleshooting, customizing and training. We also provide economic and statistical consulting services.</p>
+		</div>
+	</div>
+</section>
