@@ -4,20 +4,6 @@ permalink: /academy/codes/
 title: "&#120574;demy Learning Resources"
 ---
 
-<section id="intro">
-  <div class="intro-content">
-    <h2>&#120574;<span>demy</span><br>Learning Resources</h2>
-    <div>
-      <a href="#materials" class="btn-get-started scrollto">Get Started</a>
-    </div>
-  </div>
-  <div id="intro-carousel" class="owl-carousel" >
-    <div class="item" style="background-image: url('/assets/img/academy-carousel/1.jpg');"></div>
-    <div class="item" style="background-image: url('/assets/img/academy-carousel/2.jpg');"></div>
-    <div class="item" style="background-image: url('/assets/img/academy-carousel/3.jpg');"></div>
-    <div class="item" style="background-image: url('/assets/img/academy-carousel/4.jpg');"></div>
-  </div>
-</section>
 
 <!------------------
 	MEDIA
@@ -32,7 +18,7 @@ title: "&#120574;demy Learning Resources"
   <div class="row">
 
    <div class="col-lg-3">
-   <div class="box wow fadeInUp">
+   <div class="box wow">
    <a href="/academy/videos#materials">
    <div class="icon">
   	 <img class="rounded" src="/assets/img/academy/videos.jpg"/>
@@ -43,7 +29,7 @@ title: "&#120574;demy Learning Resources"
    </div>
 
    <div class="col-lg-3">
-   <div class="box wow fadeInUp">
+   <div class="box wow">
    <a href="/academy/notes#materials">
    <div class="icon">
   	 <img class="rounded" src="/assets/img/academy/lectures.png"/>
@@ -54,7 +40,7 @@ title: "&#120574;demy Learning Resources"
    </div>
 
    <div class="col-lg-3">
-   <div class="box wow fadeInUp" data-wow-delay="0.2s">
+   <div class="box wow" data-wow-delay="0.2s">
    <a href="/academy/cases#materials">
    <div class="icon">
   	 <img class="rounded" src="/assets/img/academy/cases.png"/>
@@ -65,7 +51,7 @@ title: "&#120574;demy Learning Resources"
    </div>
 
    <div class="col-lg-3">
-   <div class="box wow fadeInUp" data-wow-delay="0.2s">
+   <div class="box wow" data-wow-delay="0.2s">
    <div class="icon">
   	 <img class="rounded" src="/assets/img/academy/codes.jpg"/>
    	 <h4 class="title">Codes</h4>
