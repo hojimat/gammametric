@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /academy/
+permalink: /academy/codes/
 title: "&#120574;demy Learning Resources"
 ---
 
@@ -66,12 +66,10 @@ title: "&#120574;demy Learning Resources"
 
    <div class="col-lg-3">
    <div class="box wow fadeInUp" data-wow-delay="0.2s">
-   <a href="/academy/codes#materials">
    <div class="icon">
   	 <img class="rounded" src="/assets/img/academy/codes.jpg"/>
    	 <h4 class="title">Codes</h4>
    </div>
-   </a>
    </div>
    </div>
 
@@ -94,43 +92,3 @@ title: "&#120574;demy Learning Resources"
 	</div>
 </section>
 
-
-<!------------------
-	LECTURES
-------------------->
-
-<section id="lecture" class="wow fadeInUp">
-	<div class="container">
-		<div class="section-header">
-			<h2>Lectures</h2>
-			<p>We offer our existing products under various licenses, and also build new ones exclusively for interested clients. We offer various support services for our tools including maintenance, troubleshooting, customizing and training. We also provide economic and statistical consulting services.</p>
-		</div>
-	</div>
-</section>
-
-
-<!------------------
-	EXAMPLES
-------------------->
-
-<section id="example" class="wow fadeInUp">
-	<div class="container">
-		<div class="section-header">
-			<h2>Examples</h2>
-			<p>We offer our existing products under various licenses, and also build new ones exclusively for interested clients. We offer various support services for our tools including maintenance, troubleshooting, customizing and training. We also provide economic and statistical consulting services.</p>
-		</div>
-	</div>
-</section>
-
-<!------------------
-	CODES	
-------------------->
-
-<section id="code" class="wow fadeInUp">
-	<div class="container">
-		<div class="section-header">
-			<h2>Codes</h2>
-			<p>We offer our existing products under various licenses, and also build new ones exclusively for interested clients. We offer various support services for our tools including maintenance, troubleshooting, customizing and training. We also provide economic and statistical consulting services.</p>
-		</div>
-	</div>
-</section>

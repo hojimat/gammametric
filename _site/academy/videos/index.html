@@ -3,16 +3,17 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta name="description" content="R reimplementation of Daniel McCarthy and Peter Fader's valuation model">
+  <meta name="description" content="GammaMetric is an economic consulting firm that operates at the intersection of statistics, computing and finance.">
   
-  <meta name="keywords" content="peter fader, R, economics, management, stock, valuation, IPO, public data, subscription" />
+  <meta name="keywords" content="statistical consulting,econometrics,economic consulting,statistical analysis" />
   
   <meta name="twitter:site"    content="@gammametric">
-  <meta name="twitter:title"   content="Valuation Calculator for Subscription-Based Businesses">
+  <meta name="twitter:title"   content="&#120574;demy Learning Resources">
   <meta name="twitter:card"  content="summary_large_image">
   <meta property="fb:admins" content="ravshanskh">
   
-  <meta name="twitter:image" content="http://localhost:4000/assets/img/churn/diag2.png">
+  <meta property="og:image" content="https://gammametric.com/assets/img/carousel/1.jpg">
+  <meta name="twitter:image" content="https://gammametric.com/assets/img/carousel/1.jpg">
   
 
   <!-- Favicons -->
@@ -85,20 +86,17 @@
 -->
 
 <!-- Begin Jekyll SEO tag v2.3.0 -->
-<title>Valuation Calculator for Subscription-Based Businesses | GammaMetric</title>
-<meta property="og:title" content="Valuation Calculator for Subscription-Based Businesses" />
+<title>𝛾demy Learning Resources | GammaMetric</title>
+<meta property="og:title" content="𝛾demy Learning Resources" />
 <meta name="author" content="GammaMetric Solutions" />
-<meta property="og:locale" content="english" />
-<meta name="description" content="R reimplementation of Daniel McCarthy and Peter Fader’s valuation model" />
-<meta property="og:description" content="R reimplementation of Daniel McCarthy and Peter Fader’s valuation model" />
-<link rel="canonical" href="http://localhost:4000/articles/valuation-calc.html" />
-<meta property="og:url" content="http://localhost:4000/articles/valuation-calc.html" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="GammaMetric is an economic consulting firm that operates at the intersection of statistics, computing and finance." />
+<meta property="og:description" content="GammaMetric is an economic consulting firm that operates at the intersection of statistics, computing and finance." />
+<link rel="canonical" href="http://localhost:4000/academy/videos/" />
+<meta property="og:url" content="http://localhost:4000/academy/videos/" />
 <meta property="og:site_name" content="GammaMetric" />
-<meta property="og:image" content="http://localhost:4000/assets/img/churn/diag2.png" />
-<meta property="og:type" content="article" />
-<meta property="article:published_time" content="2018-11-27T00:00:00+01:00" />
 <script type="application/ld+json">
-{"description":"R reimplementation of Daniel McCarthy and Peter Fader’s valuation model","publisher":null,"url":"http://localhost:4000/articles/valuation-calc.html","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/articles/valuation-calc.html"},"headline":"Valuation Calculator for Subscription-Based Businesses","dateModified":"2018-11-27T00:00:00+01:00","datePublished":"2018-11-27T00:00:00+01:00","sameAs":null,"author":{"@type":"Person","name":"GammaMetric Solutions"},"name":null,"image":"http://localhost:4000/assets/img/churn/diag2.png","@context":"http://schema.org"}</script>
+{"description":"GammaMetric is an economic consulting firm that operates at the intersection of statistics, computing and finance.","publisher":null,"url":"http://localhost:4000/academy/videos/","@type":"WebPage","mainEntityOfPage":null,"headline":"𝛾demy Learning Resources","dateModified":null,"datePublished":null,"sameAs":null,"author":{"@type":"Person","name":"GammaMetric Solutions"},"name":null,"image":null,"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -152,129 +150,93 @@
 
 
   <main id="main">
-	      <div class="row col-md-12">
-	<div class="container content col-md-7 offset-1 py-5">
-      <div class="post">
-  <h1 class="post-title">Valuation Calculator for Subscription-Based Businesses</h1>
-  <span class="post-date">27 Nov 2018</span>
-  <div class="py-4">
-  <p>Last summer I worked on a project that used Daniel McCarthy, Peter Fader and Bruce Hardie’s valuation model, described in their paper “Valuing Subscription-Based Businesses Using Publicly Disclosed Customer Data” available at <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2701093#maincontent">SSRN</a>.</p>
+	      <section id="intro">
+  <div class="intro-content">
+    <h2>&#120574;<span>demy</span><br />Learning Resources</h2>
+    <div>
+      <a href="#materials" class="btn-get-started scrollto">Get Started</a>
+    </div>
+  </div>
+  <div id="intro-carousel" class="owl-carousel">
+    <div class="item" style="background-image: url('/assets/img/academy-carousel/1.jpg');"></div>
+    <div class="item" style="background-image: url('/assets/img/academy-carousel/2.jpg');"></div>
+    <div class="item" style="background-image: url('/assets/img/academy-carousel/3.jpg');"></div>
+    <div class="item" style="background-image: url('/assets/img/academy-carousel/4.jpg');"></div>
+  </div>
+</section>
 
-<p>Their model features a lot of series, vectors, matrices, intertwined recursive definitions, that it was very difficult to comprehend at first. So, if you are going to read their paper, here is the diagram that I have drawn to make it easier for you to understand it.</p>
+<!------------------
+	MEDIA
+------------------->
+<section id="materials">
+<div class="container">
+  <div class="section-header">
+    <h2>Materials</h2>
+    <p></p>
+  </div>
 
-<figure class="blog">
-	<img class="img-fluid" src="/assets/img/churn/diag.png" height="300%" />
-	<figcaption>McCarthy et al.'s Customer behavior model</figcaption>
-</figure>
+  <div class="row">
 
-<p>In the summer gig, I mentioned, I had to use an Excel-based optimization kindly provided by Dan Mccarthy, due to time constraints. But now I finally found time to replicate their model in R.</p>
+   <div class="col-lg-3">
+   <div class="box wow fadeInUp">
+   <div class="icon">
+  	 <img class="rounded" src="/assets/img/academy/videos.jpg" />
+   	 <h4 class="title">Video Materials</h4>
+   </div>
+   </div>
+   </div>
 
-<p>It’s in an earliest alpha version now, and does not optimize consistently. Moreover, I haven’t built a Shiny user interface due to my workload on other projects.</p>
+   <div class="col-lg-3">
+   <div class="box wow fadeInUp">
+   <a href="/academy/notes#materials">
+   <div class="icon">
+  	 <img class="rounded" src="/assets/img/academy/lectures.png" />
+   	 <h4 class="title">Lecture Notes</h4>
+   </div>
+   </a>
+   </div>
+   </div>
 
-<p>However, if you are interested, you can find the code in the <a href="https://github.com/ravshansk/danmccarthy">Github repo that I created specifically for that</a>. You are welcome to contribute to the project. I will welcome your pull requests.</p>
+   <div class="col-lg-3">
+   <div class="box wow fadeInUp" data-wow-delay="0.2s">
+   <a href="/academy/cases#materials">
+   <div class="icon">
+  	 <img class="rounded" src="/assets/img/academy/cases.png" />
+   	 <h4 class="title">Case Studies</h4>
+   </div>
+   </a>
+   </div>
+   </div>
 
-<p>Ideally, the project will constitute an open-source user-friendly valuation calculator for subscription-based businesses.</p>
-
-<p>Let’s combine our codes to make life easier for laymen!</p>
+   <div class="col-lg-3">
+   <div class="box wow fadeInUp" data-wow-delay="0.2s">
+   <a href="/academy/codes#materials">
+   <div class="icon">
+  	 <img class="rounded" src="/assets/img/academy/codes.jpg" />
+   	 <h4 class="title">Codes</h4>
+   </div>
+   </a>
+   </div>
+   </div>
 
   </div>
-</div>
-
-<div class="share-page">
-	<a href="https://twitter.com/share?
-		text=[enter%20text]&
-		url=http://localhost:4000/articles/valuation-calc.html&
-		via=gammametric"
-	   target="_blank"
-	>Tweet it</a>
-
-	<a href="https://www.linkedin.com/shareArticle?
-		mini=true&
-		url=http://localhost:4000/articles/valuation-calc.html&
-		title=Valuation Calculator for Subscription-Based Businesses
-		summary=R reimplementation of Daniel McCarthy and Peter Fader's valuation model&
-		source=GammaMetric"
-	   target="_blank"
-	>Share on Linkedin</a>
-
-    <a href="https://facebook.com/sharer.php?
-		u=http://localhost:4000/articles/valuation-calc.html"
-	   target="_blank"
-	>Share on Facebook</a>
-    
-	<a href="https://plus.google.com/share?
-		url=http://localhost:4000/articles/valuation-calc.html"
-	   target="_blank"
-	>Share on Google+</a>
 
 </div>
+</section>
 
-<script src="https://apis.google.com/js/plusone.js"></script>
+<!------------------
+	SCREENCASTS
+------------------->
 
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-<div class="fb-comments"
-	data-href="http://localhost:4000/articles/valuation-calc.html"
-	data-numposts="5"
-	data-width="642">
-</div>
- 
-<div class="g-comments"
-     data-href="http://localhost:4000/articles/valuation-calc.html"
-     data-width="642"
-     data-first_party_property="BLOGGER"
-     data-view_type="FILTERED_POSTMOD">
-</div>
-
-
-
- 	</div>
-
-	<div class="col-md-4 blog-sidebar py-5">
-		<div class="categories pb-5">
-			<h3>Read categories</h3>
-				<a class="badge badge-light p-2" href="/economics">Economics</a>
-				<a class="badge badge-light p-2" href="/statistics">Statistics</a>
-				<a class="badge badge-light p-2" href="/finance">Finance</a>
-				<a class="badge badge-light p-2" href="/management">Management</a>
-				<a class="badge badge-light p-2" href="/complexity">Complexity</a>
-				<a class="badge badge-light p-2" href="/crypto">Crypto</a>
-		</div>
-		<div class="recent">
-			<h3>Recent articles</h3>
-				<ul class="list-unstyled">
-					
-						
-   							<li><a class="text-dark small" href="/articles/brazil-noshow.html">My take on the famous medical appointment no-show problem</a></li>
-						
-					
-						
-   							<li><a class="text-dark small" href="/articles/saudi-visa.html">Using matching with quotas to solve Hajj visa problem</a></li>
-						
-					
-						
-   							<li><a class="text-dark small" href="/articles/valuation-calc.html">Valuation Calculator for Subscription-Based Businesses</a></li>
-						
-					
-						
-   							<li><a class="text-dark small" href="/articles/likert.html">Simulating Likert scale data in R</a></li>
-						
-					
-						
-   							<li><a class="text-dark small" href="/articles/munkfin.html">In quest of the ultimate investment advice</a></li>
-						
-					
-				</ul>
+<section id="screencast" class="wow fadeInUp">
+	<div class="container">
+		<div class="section-header">
+			<h2>Screencasts</h2>
+			<p>We offer our existing products under various licenses, and also build new ones exclusively for interested clients. We offer various support services for our tools including maintenance, troubleshooting, customizing and training. We also provide economic and statistical consulting services.</p>
 		</div>
 	</div>
-</div>
+</section>
+
 
   </main>
 

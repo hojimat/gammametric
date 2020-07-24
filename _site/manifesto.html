@@ -5,10 +5,10 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta name="description" content="GammaMetric is an economic consulting firm that operates at the intersection of statistics, computing and finance.">
   
-  <meta name="keywords" content="stata, cointreg, pedroni, panel data" />
+  <meta name="keywords" content="statistical consulting,econometrics,economic consulting,statistical analysis" />
   
   <meta name="twitter:site"    content="@gammametric">
-  <meta name="twitter:title"   content="Introducing Panel FMOLS/DOLS command for Stata">
+  <meta name="twitter:title"   content="Our manifesto">
   <meta name="twitter:card"  content="summary_large_image">
   <meta property="fb:admins" content="ravshanskh">
   
@@ -86,19 +86,17 @@
 -->
 
 <!-- Begin Jekyll SEO tag v2.3.0 -->
-<title>Introducing Panel FMOLS/DOLS command for Stata | GammaMetric</title>
-<meta property="og:title" content="Introducing Panel FMOLS/DOLS command for Stata" />
+<title>Our manifesto | GammaMetric</title>
+<meta property="og:title" content="Our manifesto" />
 <meta name="author" content="GammaMetric Solutions" />
-<meta property="og:locale" content="english" />
-<meta name="description" content="Last week I was hired to perform a thorough analysis of a panel dataset for export dynamics of different sectors in a country. I had never done panel econometrics before or even read it in a textbook. But since I am good at cross-section and time-series, I believed I could handle the task. And I wasn’t wrong." />
-<meta property="og:description" content="Last week I was hired to perform a thorough analysis of a panel dataset for export dynamics of different sectors in a country. I had never done panel econometrics before or even read it in a textbook. But since I am good at cross-section and time-series, I believed I could handle the task. And I wasn’t wrong." />
-<link rel="canonical" href="http://localhost:4000/articles/xtcointreg.html" />
-<meta property="og:url" content="http://localhost:4000/articles/xtcointreg.html" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="GammaMetric is an economic consulting firm that operates at the intersection of statistics, computing and finance." />
+<meta property="og:description" content="GammaMetric is an economic consulting firm that operates at the intersection of statistics, computing and finance." />
+<link rel="canonical" href="http://localhost:4000/manifesto" />
+<meta property="og:url" content="http://localhost:4000/manifesto" />
 <meta property="og:site_name" content="GammaMetric" />
-<meta property="og:type" content="article" />
-<meta property="article:published_time" content="2018-01-01T00:00:00+01:00" />
 <script type="application/ld+json">
-{"description":"Last week I was hired to perform a thorough analysis of a panel dataset for export dynamics of different sectors in a country. I had never done panel econometrics before or even read it in a textbook. But since I am good at cross-section and time-series, I believed I could handle the task. And I wasn’t wrong.","publisher":null,"url":"http://localhost:4000/articles/xtcointreg.html","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/articles/xtcointreg.html"},"headline":"Introducing Panel FMOLS/DOLS command for Stata","dateModified":"2018-01-01T00:00:00+01:00","datePublished":"2018-01-01T00:00:00+01:00","sameAs":null,"author":{"@type":"Person","name":"GammaMetric Solutions"},"name":null,"image":null,"@context":"http://schema.org"}</script>
+{"description":"GammaMetric is an economic consulting firm that operates at the intersection of statistics, computing and finance.","publisher":null,"url":"http://localhost:4000/manifesto","@type":"WebPage","mainEntityOfPage":null,"headline":"Our manifesto","dateModified":null,"datePublished":null,"sameAs":null,"author":{"@type":"Person","name":"GammaMetric Solutions"},"name":null,"image":null,"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -154,88 +152,20 @@
   <main id="main">
 	      <div class="row col-md-12">
 	<div class="container content col-md-7 offset-1 py-5">
-      <div class="post">
-  <h1 class="post-title">Introducing Panel FMOLS/DOLS command for Stata</h1>
-  <span class="post-date">01 Jan 2018</span>
-  <div class="py-4">
-  <p>Last week I was hired to perform a thorough analysis of a panel dataset for export dynamics of different sectors in a country. I had never done panel econometrics before or even read it in a textbook. But since I am good at cross-section and time-series, I believed I could handle the task. And I wasn’t wrong.</p>
+      <h1 id="our-manifesto">Our manifesto</h1>
 
-<p>Since this task was single time with no generalizations/automations required, my tool of choice was of course Stata. It doesn’t have a scalability like R but has a very comfortable syntax. You ask me what about E-views? E-views sucks.</p>
-
-<p>However, in process I realized that panel FMOLS cannot be done natively in stata. The closest thing is <code class="highlighter-rouge">xtpedroni</code> but it gives panel DOLS and didn’t add panel FMOLS. R also doesn’t have such a library. Ironically, E-views turned out to have that feature. But I wouldn’t concede that easy. So, I decided to go back to <a href="https://econpapers.repec.org/article/tprrestat/v_3a83_3ay_3a2001_3ai_3a4_3ap_3a727-731.htm">Pedroni’s 1996 paper</a> and examine the structure of panel FMOLS estimators. It turned out to be a simple average between each panel’s FMOLS for coefficients and sum divided by the square root of the total number of panels for t-statistics.</p>
-
-<p>So, I got that and tried to write a code for it, but it turned out to be very challenging. Then I found out that there is actually an existing tool for time series FMOLS estimation called <code class="highlighter-rouge">cointreg</code>. This is an excellent program written by <a href="http://ageconsearch.umn.edu/bitstream/229441/2/sjart_st0272.pdf">Qunyong Wang and Na Wu</a>. So, I just applied the group mean averaging to it.</p>
-
-<p>Meet a new command for Stata <code class="highlighter-rouge">xtcointreg</code>. It basically adapts <code class="highlighter-rouge">cointreg</code> to a panel environment, so you need to <a href="http://agec    onsearch.umn.edu/bitstream/229441/2/sjart_st0272.pdf">install it first</a>. The documentation is the same as <code class="highlighter-rouge">cointreg</code> plus one option <code class="highlighter-rouge">full</code>. I will submit the file to “ssc”. In the meantime you can <a href="/assets/ftp/xtcointreg.ado">download the .ado file here</a> and place it in the folder called “ado” located inside your system directory(which can be found with a command `sysdir’).</p>
-
-<p>Hope it will help you in your research. Please feel free to <a href="/contact">contact me</a> with any questions and commments.</p>
-
-<p><strong>Update</strong> It was included to SSC. You can use <code class="highlighter-rouge">ssc install xtcointreg</code> to download it.</p>
-
-<p><strong>Update 2</strong> If you have installed the program successfully but it is not working for some reason, please try this workaround:</p>
 <ol>
-  <li>write a command <code class="highlighter-rouge">which xtcointreg</code> and find the location of the <strong>xtcointreg.ado</strong> file;</li>
-  <li>open that file with any text editor and remove the line number 8 <code class="highlighter-rouge">capt program drop xtcointreg</code>;</li>
-  <li>save the file and try to run <code class="highlighter-rouge">xtcointreg</code> again. This problem is related to the publisher of the code and not to my code itself.</li>
+  <li>Choose projects that require education. Dropouts are not welcome.</li>
+  <li>Never get paid for sharing wisdom. Earn money with your expertise not your life experience.</li>
+  <li>Give chances to inexperienced. Give the platform to starters.</li>
+  <li>Never close your source code!</li>
+  <li>Contribute globally.</li>
+  <li>Never have work hours.</li>
+  <li>Never track your users. Be wary of cookies.</li>
+  <li>Never track your employees. Never put trackers on work laptops and accounts.</li>
+  <li>Don’t be a hypocrite! Say not to rent seeking!</li>
+  <li></li>
 </ol>
-
-  </div>
-</div>
-
-<div class="share-page">
-	<a href="https://twitter.com/share?
-		text=[enter%20text]&
-		url=http://localhost:4000/articles/xtcointreg.html&
-		via=gammametric"
-	   target="_blank"
-	>Tweet it</a>
-
-	<a href="https://www.linkedin.com/shareArticle?
-		mini=true&
-		url=http://localhost:4000/articles/xtcointreg.html&
-		title=Introducing Panel FMOLS/DOLS command for Stata
-		summary=&
-		source=GammaMetric"
-	   target="_blank"
-	>Share on Linkedin</a>
-
-    <a href="https://facebook.com/sharer.php?
-		u=http://localhost:4000/articles/xtcointreg.html"
-	   target="_blank"
-	>Share on Facebook</a>
-    
-	<a href="https://plus.google.com/share?
-		url=http://localhost:4000/articles/xtcointreg.html"
-	   target="_blank"
-	>Share on Google+</a>
-
-</div>
-
-<script src="https://apis.google.com/js/plusone.js"></script>
-
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-<div class="fb-comments"
-	data-href="http://localhost:4000/articles/xtcointreg.html"
-	data-numposts="5"
-	data-width="642">
-</div>
- 
-<div class="g-comments"
-     data-href="http://localhost:4000/articles/xtcointreg.html"
-     data-width="642"
-     data-first_party_property="BLOGGER"
-     data-view_type="FILTERED_POSTMOD">
-</div>
-
-
 
  	</div>
 

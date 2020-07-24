@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /academy/
+permalink: /academy/notes/
 title: "&#120574;demy Learning Resources"
 ---
 
@@ -44,12 +44,10 @@ title: "&#120574;demy Learning Resources"
 
    <div class="col-lg-3">
    <div class="box wow fadeInUp">
-   <a href="/academy/notes#materials">
    <div class="icon">
   	 <img class="rounded" src="/assets/img/academy/lectures.png"/>
    	 <h4 class="title">Lecture Notes</h4>
    </div>
-   </a>
    </div>
    </div>
 
@@ -94,43 +92,3 @@ title: "&#120574;demy Learning Resources"
 	</div>
 </section>
 
-
-<!------------------
-	LECTURES
-------------------->
-
-<section id="lecture" class="wow fadeInUp">
-	<div class="container">
-		<div class="section-header">
-			<h2>Lectures</h2>
-			<p>We offer our existing products under various licenses, and also build new ones exclusively for interested clients. We offer various support services for our tools including maintenance, troubleshooting, customizing and training. We also provide economic and statistical consulting services.</p>
-		</div>
-	</div>
-</section>
-
-
-<!------------------
-	EXAMPLES
-------------------->
-
-<section id="example" class="wow fadeInUp">
-	<div class="container">
-		<div class="section-header">
-			<h2>Examples</h2>
-			<p>We offer our existing products under various licenses, and also build new ones exclusively for interested clients. We offer various support services for our tools including maintenance, troubleshooting, customizing and training. We also provide economic and statistical consulting services.</p>
-		</div>
-	</div>
-</section>
-
-<!------------------
-	CODES	
-------------------->
-
-<section id="code" class="wow fadeInUp">
-	<div class="container">
-		<div class="section-header">
-			<h2>Codes</h2>
-			<p>We offer our existing products under various licenses, and also build new ones exclusively for interested clients. We offer various support services for our tools including maintenance, troubleshooting, customizing and training. We also provide economic and statistical consulting services.</p>
-		</div>
-	</div>
-</section>
