@@ -4,10 +4,9 @@ permalink: /academy/codes/
 title: "&#120574;demy Learning Resources"
 ---
 
-
+<h2>Codes</h2>
 <!------------------
 	MEDIA
-------------------->
 <section id="materials">
 <div class="container">
   <div class="section-header">
@@ -65,6 +64,7 @@ title: "&#120574;demy Learning Resources"
 </section>
 
 
+------------------->
 <!------------------
 	SCREENCASTS
 ------------------->

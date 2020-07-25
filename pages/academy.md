@@ -33,7 +33,7 @@ title: "&#120574;demy Learning Resources"
 
    <div class="col-lg-3">
    <div class="box wow fadeInUp">
-   <a href="/academy/videos#materials">
+   <a href="/academy/videos">
    <div class="icon">
   	 <img class="rounded" src="/assets/img/academy/videos.jpg"/>
    	 <h4 class="title">Video Materials</h4>
@@ -44,7 +44,7 @@ title: "&#120574;demy Learning Resources"
 
    <div class="col-lg-3">
    <div class="box wow fadeInUp">
-   <a href="/academy/notes#materials">
+   <a href="/academy/notes">
    <div class="icon">
   	 <img class="rounded" src="/assets/img/academy/lectures.png"/>
    	 <h4 class="title">Lecture Notes</h4>
@@ -55,7 +55,7 @@ title: "&#120574;demy Learning Resources"
 
    <div class="col-lg-3">
    <div class="box wow fadeInUp" data-wow-delay="0.2s">
-   <a href="/academy/cases#materials">
+   <a href="/academy/cases">
    <div class="icon">
   	 <img class="rounded" src="/assets/img/academy/cases.png"/>
    	 <h4 class="title">Case Studies</h4>
@@ -66,7 +66,7 @@ title: "&#120574;demy Learning Resources"
 
    <div class="col-lg-3">
    <div class="box wow fadeInUp" data-wow-delay="0.2s">
-   <a href="/academy/codes#materials">
+   <a href="/academy/codes">
    <div class="icon">
   	 <img class="rounded" src="/assets/img/academy/codes.jpg"/>
    	 <h4 class="title">Codes</h4>

@@ -7,7 +7,6 @@ title: "&#120574;demy Learning Resources"
 
 <!------------------
 	MEDIA
-------------------->
 <section id="materials">
 <div class="container">
   <div class="section-header">
@@ -65,6 +64,7 @@ title: "&#120574;demy Learning Resources"
 </section>
 
 
+------------------->
 <!------------------
 	SCREENCASTS
 ------------------->
