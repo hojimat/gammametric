@@ -1,0 +1,123 @@
+<div class="row col-md-12">
+	<div class="container content col-md-7 offset-1 py-5">
+      <div class="post">
+  <h1 class="post-title">Valuation Calculator for Subscription-Based Businesses</h1>
+  <span class="post-date">27 Nov 2018</span>
+  <div class="py-4">
+  <p>Last summer I worked on a project that used Daniel McCarthy, Peter Fader and Bruce Hardie’s valuation model, described in their paper “Valuing Subscription-Based Businesses Using Publicly Disclosed Customer Data” available at <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2701093#maincontent">SSRN</a>.</p>
+
+<p>Their model features a lot of series, vectors, matrices, intertwined recursive definitions, that it was very difficult to comprehend at first. So, if you are going to read their paper, here is the diagram that I have drawn to make it easier for you to understand it.</p>
+
+<figure class="blog">
+	<img class="img-fluid" src="/assets/img/churn/diag.png" height="300%" />
+	<figcaption>McCarthy et al.'s Customer behavior model</figcaption>
+</figure>
+
+<p>In the summer gig, I mentioned, I had to use an Excel-based optimization kindly provided by Dan Mccarthy, due to time constraints. But now I finally found time to replicate their model in R.</p>
+
+<p>It’s in an earliest alpha version now, and does not optimize consistently. Moreover, I haven’t built a Shiny user interface due to my workload on other projects.</p>
+
+<p>However, if you are interested, you can find the code in the <a href="https://github.com/ravshansk/danmccarthy">Github repo that I created specifically for that</a>. You are welcome to contribute to the project. I will welcome your pull requests.</p>
+
+<p>Ideally, the project will constitute an open-source user-friendly valuation calculator for subscription-based businesses.</p>
+
+<p>Let’s combine our codes to make life easier for laymen!</p>
+
+  </div>
+</div>
+
+<div class="share-page">
+	<a href="https://twitter.com/share?
+		text=[enter%20text]&
+		url=http://localhost:4000/valuation-calc.html&
+		via=gammametric"
+	   target="_blank"
+	>Tweet it</a>
+
+	<a href="https://www.linkedin.com/shareArticle?
+		mini=true&
+		url=http://localhost:4000/valuation-calc.html&
+		title=Valuation Calculator for Subscription-Based Businesses
+		summary=R reimplementation of Daniel McCarthy and Peter Fader's valuation model&
+		source=Gammametric"
+	   target="_blank"
+	>Share on Linkedin</a>
+
+    <a href="https://facebook.com/sharer.php?
+		u=http://localhost:4000/valuation-calc.html"
+	   target="_blank"
+	>Share on Facebook</a>
+    
+	<a href="https://plus.google.com/share?
+		url=http://localhost:4000/valuation-calc.html"
+	   target="_blank"
+	>Share on Google+</a>
+
+</div>
+
+<script src="https://apis.google.com/js/plusone.js"></script>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-comments"
+	data-href="http://localhost:4000/valuation-calc.html"
+	data-numposts="5"
+	data-width="642">
+</div>
+ 
+<div class="g-comments"
+     data-href="http://localhost:4000/valuation-calc.html"
+     data-width="642"
+     data-first_party_property="BLOGGER"
+     data-view_type="FILTERED_POSTMOD">
+</div>
+
+
+
+ 	</div>
+
+	<div class="col-md-4 blog-sidebar py-5">
+		<div class="categories pb-5">
+			<h3>Read categories</h3>
+				<a class="badge badge-light p-2" href="/economics">Economics</a>
+				<a class="badge badge-light p-2" href="/statistics">Statistics</a>
+				<a class="badge badge-light p-2" href="/finance">Finance</a>
+				<a class="badge badge-light p-2" href="/management">Management</a>
+				<a class="badge badge-light p-2" href="/complexity">Complexity</a>
+				<a class="badge badge-light p-2" href="/crypto">Crypto</a>
+		</div>
+		<div class="recent">
+			<h3>Recent articles</h3>
+				<ul class="list-unstyled">
+					
+						
+   							<li><a class="text-dark small" href="/academy/notes/simulation">Simulations in economics</a></li>
+						
+					
+						
+   							<li><a class="text-dark small" href="/articles/brazil-noshow.html">My take on the famous medical appointment no-show problem</a></li>
+						
+					
+						
+   							<li><a class="text-dark small" href="/brazil-noshow.html">My take on the famous medical appointment no-show problem</a></li>
+						
+					
+						
+   							<li><a class="text-dark small" href="/articles/saudi-visa.html">Using matching with quotas to solve Hajj visa problem</a></li>
+						
+					
+						
+   							<li><a class="text-dark small" href="/saudi-visa.html">Using matching with quotas to solve Hajj visa problem</a></li>
+						
+					
+				</ul>
+		</div>
+	</div>
+</div>
