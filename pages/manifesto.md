@@ -1,5 +1,4 @@
 ---
-layout: withsidebar
 title: Our manifesto
 permalink: /manifesto
 ---

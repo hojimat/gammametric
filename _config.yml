@@ -5,8 +5,8 @@ permalink:			/:categories/:title:output_ext
 
 # Setup
 title:               "Gammametric"
-tagline:             'Freight Market Consultancy'
-description:         'Gammametric is a freight market consulting firms.'
+tagline:             'Freight dispatcher'
+description:         'Gammametric is a freight market consulting and dispatching firm.'
 url:                 'https://gammametric.com'
 baseurl:             ''
 plugins: [jekyll-seo-tag, jekyll-sitemap, jekyll-redirect-from]
