@@ -335,15 +335,11 @@ permalink: /
       <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
         <div class="box">
           <h3>Starter Plan</h3>
-          <h4><sup>$</sup>100<span>per month</span></h4>
+          <h4><sup>$</sup>100<span>one-time fee</span></h4>
           <ul>
             <li><i class="bx bx-check"></i> Access to market data and forecasts</li>
             <li><i class="bx bx-check"></i> 1 hour of consultation by phone</li>
-            <li class="na"><i class="bx bx-x"></i> <span>Pharetra massa massa ultricie</span></li>
-            <li class="na"><i class="bx bx-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-            <li></li>
           </ul>
-          <a href="#" class="buy-btn">Get Started</a>
         </div>
       </div>
 
@@ -352,13 +348,10 @@ permalink: /
           <h3>Classic Plan</h3>
           <h4><sup>%</sup>5<span>from gross revenue</span></h4>
           <ul>
-            <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-            <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-            <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-            <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
-            <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
+            <li><i class="bx bx-check"></i>Access to market data and forecasts</li>
+            <li><i class="bx bx-check"></i>Search for loads and consulation</li>
+            <li><i class="bx bx-check"></i>All shipment-related Paperwork</li>
           </ul>
-          <a href="#" class="buy-btn">Get Started</a>
         </div>
       </div>
 
@@ -367,13 +360,12 @@ permalink: /
           <h3>Pro Plan</h3>
           <h4><sup>%</sup>8<span>from gross revenue</span></h4>
           <ul>
-            <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-            <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-            <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-            <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
-            <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
+            <li><i class="bx bx-check"></i>Access to market data and forecasts</li>
+            <li><i class="bx bx-check"></i>Search for loads and consulation</li>
+            <li><i class="bx bx-check"></i>All shipment-related Paperwork</li>
+            <li><i class="bx bx-check"></i> <span>Accounting and reports</span></li>
+            <li><i class="bx bx-check"></i> <span>Long-term planning and assistance</span></li>
           </ul>
-          <a href="#" class="buy-btn">Get Started</a>
         </div>
       </div>
 

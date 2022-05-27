@@ -1474,11 +1474,11 @@ section {
   margin-bottom: 30px;
 }
 #footer .footer-top .footer-contact h3 {
+  font-family: 'Roboto', sans-serif;
   font-size: 28px;
   margin: 0 0 10px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  text-transform: uppercase;
   font-weight: 600;
   color: #37517e;
 }
