@@ -427,7 +427,7 @@ permalink: /
           <div class="address">
             <i class="bi bi-geo-alt"></i>
             <h4>Location:</h4>
-            <p>A108 Adam Street, New York, NY 535022</p>
+            <p>30 N Gould St Ste 27658, Sheridan, WY 82801</p>
           </div>
 
           <div class="email">
@@ -439,10 +439,10 @@ permalink: /
           <div class="phone">
             <i class="bi bi-phone"></i>
             <h4>Call:</h4>
-            <p>+1 5589 55488 55s</p>
+            <p>+1 (307) 316-2605</p>
           </div>
 
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7780.001804052877!2d-106.95852685960655!3d44.7961710580058!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5335fabc2a66677f%3A0x8f85bd068d1afb8a!2s30%20N%20Gould%20St%2C%20Sheridan%2C%20WY%2082801%2C%20USA!5e0!3m2!1sen!2sat!4v1654787288954!5m2!1sen!2sat" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
       </div>

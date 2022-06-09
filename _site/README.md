@@ -1,2 +1,0 @@
-# gammametric
-GammaMetric Official Website
