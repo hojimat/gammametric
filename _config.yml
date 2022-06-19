@@ -1,19 +1,18 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:			/:categories/:title:output_ext
-
+permalink: /:categories/:year/:month/:day/:title:output_ext
 # Setup
-title:               "Gammametric"
-tagline:             'Freight dispatcher'
-description:         'Gammametric is a freight market consulting and dispatching firm.'
-url:                 'https://gammametric.com'
-baseurl:             ''
+title:       "Gammametric"
+tagline:     'Freight dispatcher'
+description: 'Gammametric is a freight market consulting and dispatching firm.'
+url:         'https://gammametric.com'
+baseurl:     ''
 plugins: [jekyll-seo-tag, jekyll-sitemap, jekyll-redirect-from]
 
 # About/contact
 author:
-  name:              GammaMetric Solutions
+  name:              Gammametric LLC
   url:               http://gammametric.com
   email:             info@gammametric.com
 
@@ -21,4 +20,4 @@ author:
 twitter_username:	gammametric
 
 # Custom vars
-version:             1.0.0
+version:             2.0.0
