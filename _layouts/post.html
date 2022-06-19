@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 {% include head.html %}
 {% seo %}
 
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top ">
+  <header id="header" class="fixed-top header-inner-pages">
     <div class="container d-flex align-items-center">
 
       <h1 class="logo me-auto"><a href="/">&gamma;metric</a></h1>
@@ -28,28 +29,44 @@
     </div>
   </header><!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
+  <main id="main">
 
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-          <h1>Freight Market Analytics and Dispatch</h1>
-          <h2>We are a data-driven company that provides planning and dispatching services for the carriers.</h2>
-          <div class="d-flex justify-content-center justify-content-lg-start">
-            <a href="#about" class="btn-get-started scrollto">Get Started</a>
-            <a href="https://youtu.be/dQw4w9WgXcQ" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li><a href="/news">News</a></li>
+          <li>Blog post</li>
+        </ol>
+        <h2>{{ page.title }}</h2>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+
+        <div class="row gy-4">
+          <div class="col-lg-8">
+            {{ content }}
+          </div>
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>Recent posts</h3>
+              <ul>
+                {% for post in site.posts limit:10 %}
+                <li><a class="text-dark" href="{{ site.baseurl}}{{post.url}}">{{ post.title | truncate:60 }}</a></li>
+                {% endfor %}
+              </ul>
+            </div>
           </div>
         </div>
-        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-        </div>
       </div>
-    </div>
+    </section><!-- End Portfolio Details Section -->
 
-  </section><!-- End Hero -->
-
-  <main id="main">
-    {{ content }}
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
@@ -126,8 +143,8 @@
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
- {% include scripts.html %}
 
+ {% include scripts.html %}
 </body>
 
 </html>
