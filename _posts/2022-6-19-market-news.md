@@ -44,6 +44,8 @@ Fuel prices continue to increase and the crude oil increased faster last two wee
 
 According to the EIA forecasts, the diesel prices will fall significantly to form an average of 4.78$ per gallon, keeping in mind that so far it has been over 5.7$.
 
+The main news this week has been Fed's decision to raise the benchmark interest rate by 75 points instead of 50. This will cause the savings to rise and consumption to fall. This will help stabilize the prices but might lead to a recession, as WSJ points out. For freight markets, this means a bigger share of manufacturing goods than consumption goods.
+
 #### Historically
 
 According to the Commodity Flow Survey by the Bureau of Transportation Statistics, the top states of origin by loads to trucks are:
