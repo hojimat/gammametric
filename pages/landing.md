@@ -325,6 +325,8 @@ permalink: /
             <li><i class="bx bx-check"></i>Access to market data and forecasts</li>
             <li><i class="bx bx-check"></i>Search for loads and consulation</li>
             <li><i class="bx bx-check"></i>All shipment-related Paperwork</li>
+            <li><i class="bx bx-check"></i>3 loads for free</li>
+            <li><i class="bx bx-check"></i>1 month for 2.5%</li>
           </ul>
         </div>
       </div>
